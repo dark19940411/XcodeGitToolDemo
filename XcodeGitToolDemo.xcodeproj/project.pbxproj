@@ -15,6 +15,7 @@
 		E4D59DB92027FD7800FD116B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D59DB82027FD7800FD116B /* main.m */; };
 		E4D59DC32027FD7800FD116B /* XcodeGitToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D59DC22027FD7800FD116B /* XcodeGitToolDemoTests.m */; };
 		E4D59DCE2027FD7800FD116B /* XcodeGitToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D59DCD2027FD7800FD116B /* XcodeGitToolDemoUITests.m */; };
+		E4D59DDD2028111500FD116B /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D59DDC2028111500FD116B /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E4D59DC92027FD7800FD116B /* XcodeGitToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeGitToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D59DCD2027FD7800FD116B /* XcodeGitToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeGitToolDemoUITests.m; sourceTree = "<group>"; };
 		E4D59DCF2027FD7800FD116B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D59DDB2028111500FD116B /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		E4D59DDC2028111500FD116B /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E4D59DB42027FD7800FD116B /* LaunchScreen.storyboard */,
 				E4D59DB72027FD7800FD116B /* Info.plist */,
 				E4D59DB82027FD7800FD116B /* main.m */,
+				E4D59DDB2028111500FD116B /* TestObject.h */,
+				E4D59DDC2028111500FD116B /* TestObject.m */,
 			);
 			path = XcodeGitToolDemo;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				E4D59DAE2027FD7800FD116B /* ViewController.m in Sources */,
 				E4D59DB92027FD7800FD116B /* main.m in Sources */,
+				E4D59DDD2028111500FD116B /* TestObject.m in Sources */,
 				E4D59DAB2027FD7800FD116B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
